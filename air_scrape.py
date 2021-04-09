@@ -25,12 +25,13 @@ HTMLlist =[]
 
 ### for each link
 for link in links:
+    time.sleep(1)
     # opend the browser to the link
     browser.visit(link)
-    time.sleep(10)
+    time.sleep(6)
     # add the html to the html list
     HTMLlist.append(browser.html)
-    time.sleep(2)
+    time.sleep(1)
 browser.quit()
 
 # create an empty list for each feature
@@ -62,6 +63,8 @@ bathList=[]
 guestsList=[]
 
 locationList = []
+
+costPerPersonList = []
 
 
 # for each saved HTML page
@@ -176,29 +179,39 @@ for airHTML in HTMLlist:
     except:
         location = 'null'
     locationList.append(location)
+
+    try:
+        costPerPersonList.append((total/guests))
+    except:
+        costPerPersonList.append('null')
     
 
 ## save results to dataframe
 df=pd.DataFrame({
+    'title':titleList,
+    'location':locationList,
     'total':totalList,
+    'costPerPerson':costPerPersonList,
     'nightlyFee':basePerNightList,
+    'extraFees':extraFeesList, 
     'startDate':startDateList,
     'endDate':endDateList,
     'nights':nightsList,
-    'extraFees':extraFeesList,
     'averageRating':starList,
-    'title':titleList,
     'numOfRatings':ratingList,
     'rooms':roomList,
     'beds':bedList,
     'baths':bathList,
     'guests':guestsList,
-    'location':locationList
+
+
 })
+## sort by cost per person
+df =  df.sort_values(by=['costPerPerson']).reset_index(drop=True)
 
 print(df)
 
 
 # save results as a csv
-df.to_csv('results.csv')
+df.to_csv('results.csv',index=False)
 

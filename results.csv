@@ -1,10 +1,9 @@
-,total,nightlyFee,startDate,endDate,nights,extraFees,averageRating,title,numOfRatings,rooms,beds,baths,guests,location
-0,1922,284,8/26/2021,8/31/2021,5,502,5.0,Crescent's Nook: Waterfront Gem on Spring Fed Pond,13,3,4,1,6,"Searsport, Maine, United States"
-1,1036,359,8/13/2021,8/15/2021,2,318,4.87,Hanksville Red Rock Cave Home - A Desert Paradise,62,3,6,3,6,"Hanksville, Utah, United States"
-2,761,269,8/6/2021,8/8/2021,2,223,5.0,Charlies Riverfront Cottage,16,2,4,1,6,"Molalla, Oregon, United States"
-3,1096,196,8/25/2021,8/29/2021,4,312,5.0,Little Creek Cottage,35,2,3,1,6,"Washougal, Washington, United States"
-4,936,345,8/6/2021,8/8/2021,2,246,4.87,Midcentury gem with hot tub nestled in the forest,84,3,6,1,6,"Rhododendron, Oregon, United States"
-5,null,262,8/4/2021,8/8/2021,4,null,null,Getaway on the Cove!,null,2,6,1,6,
-6,1934,474,8/13/2021,8/16/2021,3,512,4.85,Social Distancing at Secret Island Beach House,137,3,6,1,6,"Lakebay, Washington, United States"
-7,1660,315,8/12/2021,8/16/2021,4,400,4.88,Thistledown Farm's Pennysworth - An 1800's barn.,128,3,6,1,6,"Waldoboro, Maine, United States"
-8,1660,315,8/12/2021,8/16/2021,4,400,4.88,Thistledown Farm's Pennysworth - An 1800's barn.,128,3,6,1,6,"Waldoboro, Maine, United States"
+title,location,total,costPerPerson,nightlyFee,extraFees,startDate,endDate,nights,averageRating,numOfRatings,rooms,beds,baths,guests
+Charlies Riverfront Cottage,"Molalla, Oregon, United States",761,126.83333333333333,269,223,8/6/2021,8/8/2021,2,5.0,16,2,4,1,6
+Midcentury gem with hot tub nestled in the forest,"Rhododendron, Oregon, United States",936,156.0,345,246,8/6/2021,8/8/2021,2,4.87,84,3,6,1,6
+Hanksville Red Rock Cave Home - A Desert Paradise,"Hanksville, Utah, United States",1036,172.66666666666666,359,318,8/13/2021,8/15/2021,2,4.87,62,3,6,3,6
+Little Creek Cottage,"Washougal, Washington, United States",1096,182.66666666666666,196,312,8/25/2021,8/29/2021,4,5.0,35,2,3,1,6
+Thistledown Farm's Pennysworth - An 1800's barn.,"Waldoboro, Maine, United States",1660,276.6666666666667,315,400,8/12/2021,8/16/2021,4,4.88,128,3,6,1,6
+Crescent's Nook: Waterfront Gem on Spring Fed Pond,"Searsport, Maine, United States",1922,320.3333333333333,284,502,8/26/2021,8/31/2021,5,5.0,13,3,4,1,6
+Social Distancing at Secret Island Beach House,"Lakebay, Washington, United States",1934,322.3333333333333,474,512,8/13/2021,8/16/2021,3,4.85,137,3,6,1,6
+"Zion, Bryce and Grand Canyons at Sugar Knoll Lodge","Orderville, Utah, United States",1997,332.8333333333333,350,597,8/25/2021,8/29/2021,4,4.98,183,3,4,2,6
